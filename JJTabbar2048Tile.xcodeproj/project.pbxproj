@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C87D75C719420ED900D3226B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75C619420ED900D3226B /* Foundation.framework */; };
+		C87D75C919420ED900D3226B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75C819420ED900D3226B /* CoreGraphics.framework */; };
+		C87D75CB19420ED900D3226B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75CA19420ED900D3226B /* UIKit.framework */; };
+		C87D75D119420ED900D3226B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C87D75CF19420ED900D3226B /* InfoPlist.strings */; };
+		C87D75D319420ED900D3226B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C87D75D219420ED900D3226B /* main.m */; };
+		C87D75D719420ED900D3226B /* JTileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C87D75D619420ED900D3226B /* JTileAppDelegate.m */; };
+		C87D75DA19420ED900D3226B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87D75D819420ED900D3226B /* Main.storyboard */; };
+		C87D75DD19420ED900D3226B /* JTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87D75DC19420ED900D3226B /* JTileViewController.m */; };
+		C87D75E619420ED900D3226B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75E519420ED900D3226B /* XCTest.framework */; };
+		C87D75E719420ED900D3226B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75C619420ED900D3226B /* Foundation.framework */; };
+		C87D75E819420ED900D3226B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87D75CA19420ED900D3226B /* UIKit.framework */; };
+		C87D75F019420ED900D3226B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C87D75EE19420ED900D3226B /* InfoPlist.strings */; };
+		C87D75F219420ED900D3226B /* JJTabbar2048TileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C87D75F119420ED900D3226B /* JJTabbar2048TileTests.m */; };
+		C8808C32194405DD006A0B0C /* TilePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C31194405DD006A0B0C /* TilePanelView.m */; };
+		C8808C3519440721006A0B0C /* SingleTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C3419440721006A0B0C /* SingleTileView.m */; };
+		C8808C3A19440768006A0B0C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C3719440768006A0B0C /* Game.m */; };
+		C8808C3B19440768006A0B0C /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C3919440768006A0B0C /* Tile.m */; };
+		C8808C3E19440798006A0B0C /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C3D19440798006A0B0C /* MainMenuController.m */; };
+		C8808C411944079F006A0B0C /* TileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8808C401944079F006A0B0C /* TileViewController.m */; };
+		C8808C431944082A006A0B0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8808C421944082A006A0B0C /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87D75E919420ED900D3226B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87D75BB19420ED900D3226B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87D75C219420ED900D3226B;
+			remoteInfo = JJTabbar2048Tile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C87D75C319420ED900D3226B /* JJTabbar2048Tile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTabbar2048Tile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87D75C619420ED900D3226B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C87D75C819420ED900D3226B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C87D75CA19420ED900D3226B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C87D75CE19420ED900D3226B /* JJTabbar2048Tile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JJTabbar2048Tile-Info.plist"; sourceTree = "<group>"; };
+		C87D75D019420ED900D3226B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C87D75D219420ED900D3226B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C87D75D419420ED900D3226B /* JJTabbar2048Tile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJTabbar2048Tile-Prefix.pch"; sourceTree = "<group>"; };
+		C87D75D519420ED900D3226B /* JTileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTileAppDelegate.h; sourceTree = "<group>"; };
+		C87D75D619420ED900D3226B /* JTileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTileAppDelegate.m; sourceTree = "<group>"; };
+		C87D75D919420ED900D3226B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C87D75DB19420ED900D3226B /* JTileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTileViewController.h; sourceTree = "<group>"; };
+		C87D75DC19420ED900D3226B /* JTileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTileViewController.m; sourceTree = "<group>"; };
+		C87D75E419420ED900D3226B /* JJTabbar2048TileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTabbar2048TileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87D75E519420ED900D3226B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C87D75ED19420ED900D3226B /* JJTabbar2048TileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JJTabbar2048TileTests-Info.plist"; sourceTree = "<group>"; };
+		C87D75EF19420ED900D3226B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C87D75F119420ED900D3226B /* JJTabbar2048TileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTabbar2048TileTests.m; sourceTree = "<group>"; };
+		C8808C30194405DD006A0B0C /* TilePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilePanelView.h; sourceTree = "<group>"; };
+		C8808C31194405DD006A0B0C /* TilePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilePanelView.m; sourceTree = "<group>"; };
+		C8808C3319440721006A0B0C /* SingleTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTileView.h; sourceTree = "<group>"; };
+		C8808C3419440721006A0B0C /* SingleTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTileView.m; sourceTree = "<group>"; };
+		C8808C3619440768006A0B0C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C8808C3719440768006A0B0C /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		C8808C3819440768006A0B0C /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		C8808C3919440768006A0B0C /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		C8808C3C19440798006A0B0C /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		C8808C3D19440798006A0B0C /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
+		C8808C3F1944079F006A0B0C /* TileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileViewController.h; sourceTree = "<group>"; };
+		C8808C401944079F006A0B0C /* TileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileViewController.m; sourceTree = "<group>"; };
+		C8808C421944082A006A0B0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87D75C019420ED900D3226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87D75C919420ED900D3226B /* CoreGraphics.framework in Frameworks */,
+				C87D75CB19420ED900D3226B /* UIKit.framework in Frameworks */,
+				C87D75C719420ED900D3226B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87D75E119420ED900D3226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87D75E619420ED900D3226B /* XCTest.framework in Frameworks */,
+				C87D75E819420ED900D3226B /* UIKit.framework in Frameworks */,
+				C87D75E719420ED900D3226B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87D75BA19420ED900D3226B = {
+			isa = PBXGroup;
+			children = (
+				C87D75CC19420ED900D3226B /* JJTabbar2048Tile */,
+				C87D75EB19420ED900D3226B /* JJTabbar2048TileTests */,
+				C87D75C519420ED900D3226B /* Frameworks */,
+				C87D75C419420ED900D3226B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87D75C419420ED900D3226B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75C319420ED900D3226B /* JJTabbar2048Tile.app */,
+				C87D75E419420ED900D3226B /* JJTabbar2048TileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87D75C519420ED900D3226B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75C619420ED900D3226B /* Foundation.framework */,
+				C87D75C819420ED900D3226B /* CoreGraphics.framework */,
+				C87D75CA19420ED900D3226B /* UIKit.framework */,
+				C87D75E519420ED900D3226B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87D75CC19420ED900D3226B /* JJTabbar2048Tile */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75D819420ED900D3226B /* Main.storyboard */,
+				C87D75DB19420ED900D3226B /* JTileViewController.h */,
+				C87D75DC19420ED900D3226B /* JTileViewController.m */,
+				C87D76121942104A00D3226B /* Local Game Controllers */,
+				C87D7613194210FB00D3226B /* OutLets */,
+				C87D760319420FAF00D3226B /* Model */,
+				C8808C421944082A006A0B0C /* Images.xcassets */,
+				C87D75CD19420ED900D3226B /* Supporting Files */,
+			);
+			path = JJTabbar2048Tile;
+			sourceTree = "<group>";
+		};
+		C87D75CD19420ED900D3226B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75D519420ED900D3226B /* JTileAppDelegate.h */,
+				C87D75D619420ED900D3226B /* JTileAppDelegate.m */,
+				C87D75CE19420ED900D3226B /* JJTabbar2048Tile-Info.plist */,
+				C87D75CF19420ED900D3226B /* InfoPlist.strings */,
+				C87D75D219420ED900D3226B /* main.m */,
+				C87D75D419420ED900D3226B /* JJTabbar2048Tile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87D75EB19420ED900D3226B /* JJTabbar2048TileTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75F119420ED900D3226B /* JJTabbar2048TileTests.m */,
+				C87D75EC19420ED900D3226B /* Supporting Files */,
+			);
+			path = JJTabbar2048TileTests;
+			sourceTree = "<group>";
+		};
+		C87D75EC19420ED900D3226B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87D75ED19420ED900D3226B /* JJTabbar2048TileTests-Info.plist */,
+				C87D75EE19420ED900D3226B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C87D760319420FAF00D3226B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8808C3619440768006A0B0C /* Game.h */,
+				C8808C3719440768006A0B0C /* Game.m */,
+				C8808C3819440768006A0B0C /* Tile.h */,
+				C8808C3919440768006A0B0C /* Tile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C87D76121942104A00D3226B /* Local Game Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8808C3F1944079F006A0B0C /* TileViewController.h */,
+				C8808C401944079F006A0B0C /* TileViewController.m */,
+				C8808C3C19440798006A0B0C /* MainMenuController.h */,
+				C8808C3D19440798006A0B0C /* MainMenuController.m */,
+			);
+			name = "Local Game Controllers";
+			sourceTree = "<group>";
+		};
+		C87D7613194210FB00D3226B /* OutLets */ = {
+			isa = PBXGroup;
+			children = (
+				C8808C3319440721006A0B0C /* SingleTileView.h */,
+				C8808C3419440721006A0B0C /* SingleTileView.m */,
+				C8808C30194405DD006A0B0C /* TilePanelView.h */,
+				C8808C31194405DD006A0B0C /* TilePanelView.m */,
+			);
+			name = OutLets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87D75C219420ED900D3226B /* JJTabbar2048Tile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87D75F519420ED900D3226B /* Build configuration list for PBXNativeTarget "JJTabbar2048Tile" */;
+			buildPhases = (
+				C87D75BF19420ED900D3226B /* Sources */,
+				C87D75C019420ED900D3226B /* Frameworks */,
+				C87D75C119420ED900D3226B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJTabbar2048Tile;
+			productName = JJTabbar2048Tile;
+			productReference = C87D75C319420ED900D3226B /* JJTabbar2048Tile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87D75E319420ED900D3226B /* JJTabbar2048TileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87D75F819420ED900D3226B /* Build configuration list for PBXNativeTarget "JJTabbar2048TileTests" */;
+			buildPhases = (
+				C87D75E019420ED900D3226B /* Sources */,
+				C87D75E119420ED900D3226B /* Frameworks */,
+				C87D75E219420ED900D3226B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87D75EA19420ED900D3226B /* PBXTargetDependency */,
+			);
+			name = JJTabbar2048TileTests;
+			productName = JJTabbar2048TileTests;
+			productReference = C87D75E419420ED900D3226B /* JJTabbar2048TileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87D75BB19420ED900D3226B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JTile;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ForMyLove;
+				TargetAttributes = {
+					C87D75E319420ED900D3226B = {
+						TestTargetID = C87D75C219420ED900D3226B;
+					};
+				};
+			};
+			buildConfigurationList = C87D75BE19420ED900D3226B /* Build configuration list for PBXProject "JJTabbar2048Tile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87D75BA19420ED900D3226B;
+			productRefGroup = C87D75C419420ED900D3226B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87D75C219420ED900D3226B /* JJTabbar2048Tile */,
+				C87D75E319420ED900D3226B /* JJTabbar2048TileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87D75C119420ED900D3226B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8808C431944082A006A0B0C /* Images.xcassets in Resources */,
+				C87D75D119420ED900D3226B /* InfoPlist.strings in Resources */,
+				C87D75DA19420ED900D3226B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87D75E219420ED900D3226B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87D75F019420ED900D3226B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87D75BF19420ED900D3226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8808C3B19440768006A0B0C /* Tile.m in Sources */,
+				C8808C411944079F006A0B0C /* TileViewController.m in Sources */,
+				C8808C3519440721006A0B0C /* SingleTileView.m in Sources */,
+				C8808C32194405DD006A0B0C /* TilePanelView.m in Sources */,
+				C8808C3A19440768006A0B0C /* Game.m in Sources */,
+				C87D75D319420ED900D3226B /* main.m in Sources */,
+				C8808C3E19440798006A0B0C /* MainMenuController.m in Sources */,
+				C87D75D719420ED900D3226B /* JTileAppDelegate.m in Sources */,
+				C87D75DD19420ED900D3226B /* JTileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87D75E019420ED900D3226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87D75F219420ED900D3226B /* JJTabbar2048TileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87D75EA19420ED900D3226B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87D75C219420ED900D3226B /* JJTabbar2048Tile */;
+			targetProxy = C87D75E919420ED900D3226B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C87D75CF19420ED900D3226B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87D75D019420ED900D3226B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C87D75D819420ED900D3226B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87D75D919420ED900D3226B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C87D75EE19420ED900D3226B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87D75EF19420ED900D3226B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C87D75F319420ED900D3226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C87D75F419420ED900D3226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87D75F619420ED900D3226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JJTabbar2048Tile/JJTabbar2048Tile-Prefix.pch";
+				INFOPLIST_FILE = "JJTabbar2048Tile/JJTabbar2048Tile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C87D75F719420ED900D3226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JJTabbar2048Tile/JJTabbar2048Tile-Prefix.pch";
+				INFOPLIST_FILE = "JJTabbar2048Tile/JJTabbar2048Tile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C87D75F919420ED900D3226B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JJTabbar2048Tile.app/JJTabbar2048Tile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JJTabbar2048Tile/JJTabbar2048Tile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JJTabbar2048TileTests/JJTabbar2048TileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C87D75FA19420ED900D3226B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JJTabbar2048Tile.app/JJTabbar2048Tile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JJTabbar2048Tile/JJTabbar2048Tile-Prefix.pch";
+				INFOPLIST_FILE = "JJTabbar2048TileTests/JJTabbar2048TileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87D75BE19420ED900D3226B /* Build configuration list for PBXProject "JJTabbar2048Tile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87D75F319420ED900D3226B /* Debug */,
+				C87D75F419420ED900D3226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87D75F519420ED900D3226B /* Build configuration list for PBXNativeTarget "JJTabbar2048Tile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87D75F619420ED900D3226B /* Debug */,
+				C87D75F719420ED900D3226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87D75F819420ED900D3226B /* Build configuration list for PBXNativeTarget "JJTabbar2048TileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87D75F919420ED900D3226B /* Debug */,
+				C87D75FA19420ED900D3226B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C87D75BB19420ED900D3226B /* Project object */;
+}
